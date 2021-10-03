@@ -1,0 +1,21 @@
+.postId{
+    width: 20%;
+    color: blue;
+    font-size: 10em;
+    display: inline-block;
+    padding:10px;
+    margin: 30px;
+    border: 1px solid black;
+    overflow:scroll;
+    transition: 2s;
+}
+
+.postId:hover{
+    cursor:grabbing;
+    box-shadow: 5px 5px 5px 5px #777777;
+    border: 5px solid orange;
+}
+
+.postId:active{
+    cursor:grab;
+}
